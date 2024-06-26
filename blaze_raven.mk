@@ -6,6 +6,7 @@
 
 # Inherit some common blaze stuff.
 TARGET_DISABLE_EPPE := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Inherit device configuration
