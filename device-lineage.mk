@@ -199,3 +199,6 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     libevent.vendor
+
+# Gcam
+include vendor/gcam/gcam.mk
